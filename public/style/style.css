@@ -1,4 +1,34 @@
 body {
     background: black;
-    color: lime;
+    color: black;
 }
+
+h1 {
+    position: absolute;
+}
+
+.gamecontainer {
+    width: 98vw;
+    height: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid blue;
+  }
+  
+  @media (min-aspect-ratio: 4/3) {
+    .gamecontainer {
+      height: 98vh;
+      width: 133vh;
+    }
+  }
+  
+.crayonbox {
+    background: grey;
+    flex-grow: 1;
+}
+
+.paper {
+    background: rgb(20,20,20);
+    flex-grow: 4;
+}
+
